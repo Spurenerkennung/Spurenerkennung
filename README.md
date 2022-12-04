@@ -15,3 +15,7 @@ Um eine Fahrbahn erkennen zu können müssen folgende Schritte während des Prog
     - Einzeichnen der Fläche zwischen den Polynomen
 
 Eine detaillierte Beschreibung unseres Vorgehens findet sich im Jupyter-Notebook [main.ipynb](https://github.com/Spurenerkennung/Spurenerkennung/blob/main/main.ipynb) wieder.
+
+# Fragen - todo
+
+- grüne markierung mit wenig frames ok?
