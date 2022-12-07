@@ -1,0 +1,5 @@
+opencv-python
+prettytable
+numpy
+matplotlib
+deprecated
