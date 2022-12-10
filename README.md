@@ -37,3 +37,7 @@ Einige der Features, die wir implementiert haben, sind:
 - Automatische Entfernung von falsch erkannten Fahrspuren
 - Robustness allgemein
   - Gleiches model für "project" und "challenge" video
+- Debug Mode
+  - Live Einstellungen über slider
+  - Anzeige der einzelnen Schritte
+  - Erweiterte Videosteuerung
