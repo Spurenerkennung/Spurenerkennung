@@ -16,11 +16,18 @@ Um eine Fahrbahn erkennen zu können müssen folgende Schritte während des Prog
 
 Eine detaillierte Beschreibung unseres Vorgehens findet sich im Jupyter-Notebook [main.ipynb](main.ipynb) wieder.
 
-# Projektstruktur todo
+Ausgeführt wurde die Spurerkennung mit einem AMD Ryzen 5700U mit 8 Kernen und 16 logischen Prozessoren und einer Basisgeschwindigkeit von 1,8 GHz. Damit wurden minimal 21 und maximal 24 FPS erreicht (siehe "project_output_23fps.mp4" sowie "challenge_output_24fps.mp4")
 
-todo video
+# Projektstruktur 
 
-Um zu demonstrieren, dass unsere Optimierung mit Hilfe der Helligkeitsanpassung und dem Aufteilen des Frames in vier Quadranten eine wirkliche Optimierung darstellt, wurden beide Videos ("project_video" und "challenge_video") einmal mit und einmal ohne Helligkeitsanpassung durchlaufen und abgespeichert. Im aktuellen Code ist die Helligkeitserkennung jedoch standardmäßig aktiviert.
+  - [main.ipynb](main.ipynb): Gesamter Code für das Spurerkennungsprojekt inklusive ausführlicher Dokumentation
+  - [Projekt_Spurerkennung_v2.ipynb](Projekt_Spurerkennung_v2.ipynb): Hinführende Aufgaben zum Spurerkennungsprojekt
+  - [project_output_unoptimised.mp4](project_output_unoptimised.mp4): Unoptimierte Spurerkennung im Video "project_video"
+  - [challenge_output_unoptimsed.mp4](challenge_output_unoptimsed.mp4): Unoptimierte Spurerkennung im Video "challenge_video"
+  - [project_output_23fps.mp4](project_output_23fps.mp4): Optimierte Spurerkennung im Video "project_video"
+  - [challenge_output_24fps.mp4](challenge_output_24fps.mp4): Optimierte Spurerkennung im Video "challenge_video"
+
+Um zu demonstrieren, dass unsere Optimierung mit Hilfe der Helligkeitsanpassung, dem Aufteilen des Frames in vier Quadranten und der Entfernung falscher Polynome eine wirkliche Optimierung darstellt, wurden beide Videos ("project_video" und "challenge_video") einmal mit und einmal ohne Helligkeitsanpassung durchlaufen und abgespeichert (siehe oben beschriebene Video-Dateien). Im aktuellen Code sind alle Optimierungen jedoch standardmäßig aktiviert.
 
 # Zusatzfunktionen
 
