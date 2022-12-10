@@ -2,7 +2,7 @@
 
 ## Projekt im Wahlfach "Digitale Bildverarbeitung"
 
-Die Projektaufgabe bestand darin, eine Fahrspurerkennung zu implementieren. Anhand von Bildern und Videos von Udacity und KITTI wird diese Erkennung auf verschiedenste Weise getestet.
+Die Projektaufgabe bestand darin, eine Fahrspurerkennung zu implementieren. Anhand von Bildern und Videos von Udacity wird diese Erkennung auf verschiedenste Weise getestet.
 
 Um eine Fahrbahn erkennen zu können müssen folgende Schritte während des Programmablaufs abgearbeitet werden:
 
@@ -14,25 +14,26 @@ Um eine Fahrbahn erkennen zu können müssen folgende Schritte während des Prog
     - Rücktransformation der berechneten Punkte der Polynome
     - Einzeichnen der Fläche zwischen den Polynomen
 
-Eine detaillierte Beschreibung unseres Vorgehens findet sich im Jupyter-Notebook [main.ipynb](https://github.com/Spurenerkennung/Spurenerkennung/blob/main/main.ipynb) wieder.
+Eine detaillierte Beschreibung unseres Vorgehens findet sich im Jupyter-Notebook [main.ipynb](main.ipynb) wieder.
+
+# Projektstruktur todo
+
+todo video
+
+Um zu demonstrieren, dass unsere Optimierung mit Hilfe der Helligkeitsanpassung und dem Aufteilen des Frames in vier Quadranten eine wirkliche Optimierung darstellt, wurden beide Videos ("project_video" und "challenge_video") einmal mit und einmal ohne Helligkeitsanpassung durchlaufen und abgespeichert. Im aktuellen Code ist die Helligkeitserkennung jedoch standardmäßig aktiviert.
 
 # Zusatzfunktionen
 
 - "challenge"
-- "harder_challenge"
-- performance
+- Performance - Kamera Kalibrierung
+- Eigene Features - siehe unten
 
-## Eigene ?
+## Eigene
 
-- helligkeit anpassung
-- gleiches model für "project" und "challenge" video
-- automatische entfernung von falsch erkannten fahrspuren
-- (robustness allg.)
--
+Einige der Features, die wir implementiert haben, sind:
 
-# Fragen - todo
-
-- grüne markierung mit wenig frames ok?
-- ok frames wegwerfen/ignorieren wenn keine/schlechte spur erkannt
-- reicht undistort_image_remap() als performance boost?
-- bei "project" ok wenn leichte ausreiser drin sind
+- Dynamische Helligkeitsanpassung
+- Optimierung durch aufteilen des Frames in vier Quadranten und Helligkeitsanpassung in jedem Quadranten
+- Automatische Entfernung von falsch erkannten Fahrspuren
+- Robustness allgemein
+  - Gleiches model für "project" und "challenge" video
