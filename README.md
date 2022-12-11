@@ -22,10 +22,13 @@ Ausgeführt wurde die Spurerkennung mit einem AMD Ryzen 5700U mit 8 Kernen und 1
 
 - [main.ipynb](main.ipynb): Gesamter Code für das Spurerkennungsprojekt inklusive ausführlicher Dokumentation
 - [Projekt_Spurerkennung_v2.ipynb](Projekt_Spurerkennung_v2.ipynb): Hinführende Aufgaben zum Spurerkennungsprojekt
-- [project_output_unoptimised.mp4](project_output_unoptimised.mp4): Unoptimierte Spurerkennung im Video "project_video"
-- [challenge_output_unoptimsed.mp4](challenge_output_unoptimsed.mp4): Unoptimierte Spurerkennung im Video "challenge_video"
-- [project_output_23fps.mp4](project_output_23fps.mp4): Optimierte Spurerkennung im Video "project_video"
-- [challenge_output_24fps.mp4](challenge_output_24fps.mp4): Optimierte Spurerkennung im Video "challenge_video"
+- bilder_abgabe/
+  - Udacity-einzelbilder/
+    - Einzelbilder von Udacity mit erkannter Spur
+  - [project_output_unoptimised.mp4](project_output_unoptimised.mp4): Unoptimierte Spurerkennung im Video "project_video"
+  - [challenge_output_unoptimsed.mp4](challenge_output_unoptimsed.mp4): Unoptimierte Spurerkennung im Video "challenge_video"
+  - [project_output_23fps.mp4](project_output_23fps.mp4): Optimierte Spurerkennung im Video "project_video"
+  - [challenge_output_24fps.mp4](challenge_output_24fps.mp4): Optimierte Spurerkennung im Video "challenge_video"
 
 Um zu demonstrieren, dass unsere Optimierung mit Hilfe der Helligkeitsanpassung, dem Aufteilen des Frames in vier Quadranten und der Entfernung falscher Polynome eine wirkliche Optimierung darstellt, wurden beide Videos ("project_video" und "challenge_video") einmal mit und einmal ohne Helligkeitsanpassung durchlaufen und abgespeichert (siehe oben beschriebene Video-Dateien). Im aktuellen Code sind alle Optimierungen jedoch standardmäßig aktiviert.
 
