@@ -31,7 +31,7 @@ Um zu demonstrieren, dass unsere Optimierung mit Hilfe der Helligkeitsanpassung,
 
 # Zusatzfunktionen
 
-- "challenge"
+- "challenge_video"
 - Performance - Kamera Kalibrierung
 - Eigene Features - siehe unten
 
