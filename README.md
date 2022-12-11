@@ -35,7 +35,9 @@ Um zu demonstrieren, dass unsere Optimierung mit Hilfe der Helligkeitsanpassung,
 # Zusatzfunktionen
 
 - "challenge_video"
-- Performance - Kamera Kalibrierung
+- Performance 
+  - Kamerakalibrierung
+  - Rücktransformation von Punkten der Polynome anstatt der erkannten Fahrspur als gesamtes Bild
 - Eigene Features - siehe unten
 
 ## Eigene
@@ -45,8 +47,8 @@ Einige der Features, die wir implementiert haben, sind:
 - Dynamische Helligkeitsanpassung
 - Optimierung durch aufteilen des Frames in vier Quadranten und Helligkeitsanpassung in jedem Quadranten
 - Automatische Entfernung von falsch erkannten Fahrspuren
-- Robustness allgemein
-  - Gleiches model für "project" und "challenge" video
+- Robustheit allgemein
+  - Gleiches Modell für "project" und "challenge" video
 - Debug Mode
   - Live Einstellungen über slider
   - Anzeige der einzelnen Schritte
