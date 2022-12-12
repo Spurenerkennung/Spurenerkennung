@@ -6,13 +6,19 @@ Die Projektaufgabe bestand darin, eine Fahrspurerkennung zu implementieren. Anha
 
 Um eine Fahrbahn erkennen zu können müssen folgende Schritte während des Programmablaufs abgearbeitet werden:
 
-    - Kamerakalibrierung
-    - Perspektivtransformation
-    - Maskieren des Bildes mit gelben und weißen Farbmasken
-    - "Sliding Windows"
-    - Berechnung der Polynome für die Eingrenzung der Fahrbahn
-    - Rücktransformation der berechneten Punkte der Polynome
-    - Einzeichnen der Fläche zwischen den Polynomen
+    - (Wichtige Attribute/Flags)
+    - (Zeitmanagement)
+    - (Kamerakalibrierung)
+    - 1. Perspektivtransformation
+    - 2. Helligkeitskorrektur
+    - 3. Maskieren des Bildes mit gelben und weißen Farbmasken
+    - 4. Sliding Windows
+    - 5. Berechnung der Polynome für die Eingrenzung der Fahrbahn
+    - 6. Rücktransformation der berechneten Punkte der Polynome
+    - 6. Einzeichnen der Fläche zwischen den Polynomen
+    - (Debug Modus)
+    - (Main)
+    - (Fazit)
 
 Eine detaillierte Beschreibung unseres Vorgehens findet sich im Jupyter-Notebook [main.ipynb](main.ipynb) wieder.
 
